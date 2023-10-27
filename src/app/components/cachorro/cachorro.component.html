@@ -1,0 +1,15 @@
+<div class="container">
+  <div class="card-container">
+    <div class="card" *ngFor="let dog of cachorros">
+      <img [src]="dog.imagem" alt="Cachorro" />
+      <h2>{{ dog.nome }}</h2>
+      <p>{{ dog.raca }}</p>
+      <button class="editar-button" (click)="editarCachorro(dog)">
+        Editar
+      </button>
+      <button class="excluir-button" (click)="excluirCachorro(dog)">
+        Excluir
+      </button>
+    </div>
+  </div>
+</div>

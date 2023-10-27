@@ -1,0 +1,77 @@
+/* cachorro.component.css */
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin: 40px;
+}
+
+.card {
+  width: 300px;
+  height: 350px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.card img {
+  max-width: 100%;
+  max-height: 50%;
+  border-radius: 10px 10px 0 0;
+}
+
+.card .card-content {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+}
+
+.card h2 {
+  margin: 10px 0;
+  font-size: 20px;
+  color: #333;
+}
+
+.card p {
+  color: #666;
+  flex-grow: 1;
+}
+
+.card .buttons {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 10px 20px;
+}
+
+.card .editar-button,
+.card .excluir-button {
+  flex: 1;
+  background-color: #007bff;
+  background-color: #ff0000;
+  color: #fff;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.card .editar-button:hover {
+  background-color: #0056b3;
+}
+
+.card .excluir-button:hover {
+  background-color: #ff3333;
+}

@@ -1,0 +1,40 @@
+{
+  "dogs": [
+    {
+      "id": 1,
+      "nome": "Bob",
+      "raca": "SRD",
+      "imagem": "assets/imagens/bob.jpeg"
+    },
+    {
+      "id": 2,
+      "nome": "Paco",
+      "raca": "Border Collie",
+      "imagem": "assets/imagens/border-colie.jpg"
+    },
+    {
+      "id": 3,
+      "nome": "Pirata",
+      "raca": "Boxer",
+      "imagem": "assets/imagens/pirata.jpg"
+    },
+    {
+      "id": 4,
+      "nome": "Floquinho",
+      "raca": "Poodle",
+      "imagem": "assets/imagens/poodle.jpg"
+    },
+    {
+      "id": 5,
+      "nome": "Teddy",
+      "raca": "Lhasa Apso",
+      "imagem": "assets/imagens/Teddy.jpg"
+    },
+    {
+      "id": 6,
+      "nome": "Mel",
+      "raca": "Golden",
+      "imagem": "assets/imagens/mel.jpg"
+    }
+  ]
+}
